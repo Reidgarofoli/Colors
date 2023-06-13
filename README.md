@@ -21,10 +21,10 @@ foreground background
     white        37         47
 Additionally, you can use these:
 
-reset             0  (everything back to normal)
-bold/bright       1  (often a brighter shade of the same colour)
-underline         4
-inverse           7  (swap foreground and background colours)
-bold/bright off  21
-underline off    24
-inverse off      27
+    reset             0  (everything back to normal)
+    bold/bright       1  (often a brighter shade of the same colour)
+    underline         4
+    inverse           7  (swap foreground and background colours)
+    bold/bright off  21
+    underline off    24
+    inverse off      27
