@@ -9,15 +9,16 @@ Here, \033 is the ESC character, ASCII 27. It is followed by [, then zero or mor
 
 The codes for foreground and background colours are:
 
-         foreground background
-black        30         40
-red          31         41
-green        32         42
-yellow       33         43
-blue         34         44
-magenta      35         45
-cyan         36         46
-white        37         47
+foreground background
+
+    black        30         40
+    red          31         41
+    green        32         42
+    yellow       33         43
+    blue         34         44
+    magenta      35         45
+    cyan         36         46
+    white        37         47
 Additionally, you can use these:
 
 reset             0  (everything back to normal)
