@@ -4,7 +4,7 @@ You need to output ANSI colour codes. Note that not all terminals support this; 
 
 Example:
 
- cout << "\033[1;31mbold red text\033[0m\n";
+    cout << "\033[1;31mbold red text\033[0m\n";
 Here, \033 is the ESC character, ASCII 27. It is followed by [, then zero or more numbers separated by ;, and finally the letter m. The numbers describe the colour and format to switch to from that point onwards.
 
 The codes for foreground and background colours are:
